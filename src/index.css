@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Instrument Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/InstrumentSerif.ttf') format('truetype'),
+       url('https://fonts.gstatic.com/s/instrumentserif/v5/jizBRFtNs2ka5fXjeivQ4LroWlx-2zI.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Kapakana';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/Kapakana.ttf') format('truetype'),
+       url('https://fonts.gstatic.com/s/kapakana/v19/sykt-yN0m6InS7OD9BCc9iYVO-6XOlDimtA5tQ.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400 800;
+  font-display: swap;
+  src: url('/fonts/Manrope.ttf') format('truetype'),
+       url('https://fonts.gstatic.com/s/manrope/v20/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk79FO_F.ttf') format('truetype');
+}
+
+@layer base {
+  body {
+    font-family: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    color: #000000;
+  }
+}
+
+.font-instrument {
+  font-family: 'Instrument Serif', Georgia, serif;
+}
+
+.font-kapakana {
+  font-family: 'Kapakana', cursive, serif;
+}
+
+.font-manrope {
+  font-family: 'Manrope', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+html {
+  width: 100%;
+}
+
+html.lenis, html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-smooth iframe {
+  pointer-events: none;
+}
+
+body {
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: #ffffff;
+}
+
+#root {
+  width: 100%;
+  min-height: 100%;
+}

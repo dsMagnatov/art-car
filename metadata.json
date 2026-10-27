@@ -1,0 +1,6 @@
+{
+  "name": "Art.Car - Flawless Clean",
+  "description": "Art.Car luxury car detailing showcase with interactive car video, parallax motion, and typography in Instrument Serif, Kapakana, and Manrope.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
